@@ -1,8 +1,26 @@
+/* Font Families */
+/*
+font-family: 'Racing Sans One', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
 :root {
     --primary-color: #1d5888;
     --secondary-color: #ff993b;
     --dark-color: #292929;
     --white-color: #e7e7e7;
+}
+
+.odd {
+    font-weight: 100;
+}
+
+.even {
+    font-weight: bold;
+}
+
+.logo-font {
+    font-family: 'Racing Sans One', cursive;
 }
 
 body {
